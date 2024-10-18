@@ -1,0 +1,75 @@
+/* Chat.css */
+
+/* Styling for the chat container */
+.chat-container {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling for the chat display area */
+  .chat-display {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 10px;
+    height: 400px;
+    overflow-y: auto;
+    margin-bottom: 15px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* User messages will have a blue background */
+  .user-message {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 18px;
+    max-width: 75%;
+    margin: 5px;
+    align-self: flex-end;
+    font-size: 14px;
+    display: inline-block;
+  }
+  
+  /* Bot messages will have a gray background */
+  .bot-message {
+    background-color: #e0e0e0;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 18px;
+    max-width: 75%;
+    margin: 5px;
+    align-self: flex-start;
+    font-size: 14px;
+    display: inline-block;
+  }
+  
+  /* Styling for the message input section */
+  .message-input-container {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .message-input-container input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .message-input-container button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .message-input-container button:hover {
+    background-color: #1e88e5;
+  }
+  
